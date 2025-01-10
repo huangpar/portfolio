@@ -12,10 +12,18 @@ export function Portfolio() {
                     <Link to="/portfolio">Portfolio</Link>
                     <Link to="/resume">Resume</Link>
                 </nav>
+                <div className="hamburger-menu">
+                    <span className="material-symbols-outlined">menu</span>
+                    <div className="content">
+                        <Link to="/">Home</Link>
+                        <Link to="/portfolio">Portfolio</Link>
+                        <Link to="/resume">Resume</Link>
+                    </div>
+                </div>
             </header>
             <main>
                 <div className="container-fluid custom-container">
-                    <h1><strong>My Portfolio</strong></h1> 
+                    <h1>My Portfolio</h1> 
                     <div className="row row-cols-1 row-cols-md-2 g-3 ">
                         <div className="col p-3">
                             <Link className="link-underline link-underline-opacity-0" to="/amplus" >
@@ -63,7 +71,7 @@ export function Portfolio() {
                         </div>
                     </div>
                     <div className="row row-cols-1 row-cols-md-2 g-3">
-                    <div className="col p-3">
+                        <div className="col p-3">
                             <Link className="link-underline link-underline-opacity-0" to="/capstone">
                                 <div className="card text-center h-100" style={{width:'100%'}}>
                                     <div>
@@ -71,6 +79,18 @@ export function Portfolio() {
                                     </div>
                                     <div className="card-body">
                                         <h3 className="card-title">What You Got Left?</h3>
+                                    </div>
+                                </div>
+                            </Link>
+                        </div>
+                        <div className="col p-3">
+                            <Link className="link-underline link-underline-opacity-0" to="/tokenyo">
+                                <div className="card text-center h-100" style={{width:'100%'}}>
+                                    <div>
+                                        <img src="/imgs/tokenyo-bug.png" className="card-img-top"/>
+                                    </div>
+                                    <div className="card-body">
+                                        <h3 className="card-title">Tokenyo</h3>
                                     </div>
                                 </div>
                             </Link>

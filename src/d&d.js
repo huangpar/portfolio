@@ -12,6 +12,14 @@ export function DressDestress() {
                     <Link to="/portfolio">Portfolio</Link>
                     <Link to="/resume">Resume</Link>
                 </nav>
+                <div className="hamburger-menu">
+                    <span className="material-symbols-outlined">menu</span>
+                    <div className="content">
+                        <Link to="/">Home</Link>
+                        <Link to="/portfolio">Portfolio</Link>
+                        <Link to="/resume">Resume</Link>
+                    </div>
+                </div>
             </header>
             <main>
                 <div className="nintendo">
@@ -20,7 +28,7 @@ export function DressDestress() {
                     <p>The overconsumption of fast fashion by Gen Z consumers in the United States, fueled by the rise in popularity of brands like Shein, H&M, and Forever 21, significantly contributes to the profound ecological damage caused by the industry. Fast fashion relies on cheap manufacturing, frequent consumption, and short-lived garment use, resulting in over 92 million tonnes of waste produced annually and 79 trillion liters of water consumed by the fashion industry alone (Niinimäki et al., 2020). These massive numbers are difficult to visualize, but in comparison to the rest of the world, the fashion industry produces 8-10% of global CO2 emissions, is responsible for approximately 20% of industrial water pollution from textile treatment and dyeing, contributes about 35% of oceanic primary microplastic pollution, due to the vast quantities of textile waste they generate, much of which ends up in landfills or is burned, including unsold products (United Nations Climate Change, 2018).</p>
                     <p>The environmental impact of this trend is profound. The extensive waste, water consumption, and pollution caused by fast fashion affect ecosystems and contribute significantly to climate change. The disposable culture promoted by these brands exacerbates the problem, creating a cycle of overproduction and overconsumption that harms the environment and depletes natural resources. Gen Z consumers must be made aware of these impacts and offered alternatives to these well-known fast-fashion brands to ensure sustainable consumption and production patterns (United Nations, n.d.). The long-term stability of the fashion industry relies on abandoning the fast-fashion model. Linked to a decline in overproduction and overconsumption, such transformations require new mindsets to be adopted at both the business and consumer levels (Niinimäki et al., 2020).</p>
                     <div className="container">
-                        <div className="row">
+                        <div className="row row-cols-1 row-cols-md-2">
                             <div className="col">
                                 <img src="/imgs/upload.png" className="score"/>
                             </div>

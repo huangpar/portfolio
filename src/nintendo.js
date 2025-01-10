@@ -12,6 +12,14 @@ export function Nintendo() {
                     <Link to="/portfolio">Portfolio</Link>
                     <Link to="/resume">Resume</Link>
                 </nav>
+                <div className="hamburger-menu">
+                    <span className="material-symbols-outlined">menu</span>
+                    <div className="content">
+                        <Link to="/">Home</Link>
+                        <Link to="/portfolio">Portfolio</Link>
+                        <Link to="/resume">Resume</Link>
+                    </div>
+                </div>
             </header>
             <main>
                 <div className="nintendo">

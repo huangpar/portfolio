@@ -6,6 +6,7 @@ import { Weather } from "./weather";
 import { Nintendo } from "./nintendo";
 import { DressDestress } from "./d&d";
 import { Capstone } from "./capstone";
+import { Tokenyo } from "./tokenyo";
 import { Routes } from "react-router-dom";
 import { Route } from "react-router-dom";
 import { useState } from "react";
@@ -21,6 +22,7 @@ function App() {
       <Route path="/nintendo" element={<Nintendo />} />
       <Route path="/dressdestress" element={<DressDestress />} />
       <Route path="/capstone" element={<Capstone />} />
+      <Route path="/tokenyo" element={<Tokenyo />} />
     </Routes>
   );
 }
