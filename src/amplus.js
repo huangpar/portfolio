@@ -22,9 +22,8 @@ export function Amplus() {
                 </div>
             </header>
             <main>
-                {/* <Link to="/portfolio">Back to Portfolio</Link> */}
-                <h1>Data Performance Visualization</h1>
                 <div className="container">
+                    <h1>Data Performance Visualization</h1>
                     <div className="row row-cols-1 row-cols-md-2">
                         <div className='col'>
                             <img src="/imgs/scorecard-1.png" className="score"/>
