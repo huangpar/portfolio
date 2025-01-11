@@ -26,7 +26,7 @@ export function Amplus() {
                     <h1>Data Performance Visualization</h1>
                     <div className="row row-cols-1 row-cols-md-2">
                         <div className='col'>
-                            <img src="/imgs/scorecard-1.png" className="score"/>
+                            <img src="/imgs/scorecard-1.png" alt="scorecard-1" className="score"/>
                         </div>
                         <div className='col'>
                             <p>Freelance graphic project design for Amplus Group. For this project I conceptualized and developed a detailed vendor performance scorecard tailored to the company’s needs. The scorecard was designed to include editable fields for EQC scores and visualized month-to-month performance trends, making it both functional and user-friendly. This project required ongoing communication and collaboration with key stakeholders at Amplus Group to ensure the design aligned with their branding, expectations, and operational requirements. Adobe Illustrator was leveraged to create a visually engaging and professional layout, while Adobe Acrobat was used to incorporate dynamic, editable features, ensuring ease of use and adaptability for future updates. The final product was well-received, demonstrating both technical proficiency and an ability to deliver on client objectives within set timelines. </p>
@@ -34,7 +34,7 @@ export function Amplus() {
                     </div>
                     <div className="row">
                     <div className='col'>
-                        <img src="/imgs/scorecard-2.png" className="score"/>
+                        <img src="/imgs/scorecard-2.png" alt="scorecard-2" className="score"/>
                     </div>
                     </div>
                 </div>

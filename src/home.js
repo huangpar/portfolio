@@ -32,7 +32,7 @@ export function Home() {
                                 <p>During my time at Knowtion Health Amplus Group, I honed my skills in data abstraction, system integration, and HIPAA-compliant data management, achieving measurable improvements in operational efficiency and accuracy. I thrive on solving problems and driving innovation, whether I’m streamlining healthcare data migration, designing e-commerce platforms, or crafting user-friendly web apps.</p>
                             </div>
                             <div className="col text-center">
-                                <img src="/imgs/uw_picture.jpg" className="me"/>
+                                <img src="/imgs/uw_picture.jpg" alt="parker" className="me"/>
                             </div>
                         </div>
                     </div>

@@ -28,7 +28,7 @@ export function Portfolio() {
                         <div className="col p-3">
                             <Link className="link-underline link-underline-opacity-0" to="/amplus" >
                                 <div className="card text-center h-100" style={{width:'100%'}}>
-                                    <img src="/imgs/scorecard-1.png" className="card-img-top"/>
+                                    <img src="/imgs/scorecard-1.png" alt="scorecard-1" className="card-img-top"/>
                                     <div className="card-body custom-body"> 
                                         <h3 className="card-title">Data Performance Visualization</h3>
                                     </div>
@@ -39,7 +39,7 @@ export function Portfolio() {
                             <Link className="link-underline link-underline-opacity-0 justify-content-center" to="/weather">
                                 <div className="card text-center h-100" style={{width:'100%'}}>
                                     <div className='row align-items-center' style={{height:'100%'}}>
-                                        <img src="/imgs/weather-viz.png" className="card-img-top" />
+                                        <img src="/imgs/weather-viz.png" alt="weather"className="card-img-top" />
                                     </div>
                                     <div className="card-body custom-body">
                                         <h3 className="card-title">Data Visualization</h3>
@@ -52,7 +52,7 @@ export function Portfolio() {
                         <div className="col p-3">
                             <Link className="link-underline link-underline-opacity-0" to="/nintendo">
                                 <div className="card text-center h-100" style={{width:'100%'}}>
-                                    <img src="/imgs/erd.png" className="card-img-top"/>
+                                    <img src="/imgs/erd.png" alt="Nintendo ERD" className="card-img-top"/>
                                     <div className="card-body">
                                         <h3 className="card-title">Nintendo Database Design</h3>
                                     </div>
@@ -62,7 +62,7 @@ export function Portfolio() {
                         <div className="col p-3">
                             <Link className="link-underline link-underline-opacity-0" to="/dressdestress">
                                 <div className="card text-center h-100" style={{width:'100%'}}>
-                                    <img src="/imgs/Dress-Destress-Logo.png" className="card-img-top"/>
+                                    <img src="/imgs/Dress-Destress-Logo.png" alt="Dress and Destress" className="card-img-top"/>
                                     <div className="card-body">
                                         <h3 className="card-title">Dress & Destress</h3>
                                     </div>
@@ -75,7 +75,7 @@ export function Portfolio() {
                             <Link className="link-underline link-underline-opacity-0" to="/capstone">
                                 <div className="card text-center h-100" style={{width:'100%'}}>
                                     <div>
-                                        <img src="/imgs/unnamed.png" className="card-img-top"/>
+                                        <img src="/imgs/unnamed.png" alt="What You Got Left" className="card-img-top"/>
                                     </div>
                                     <div className="card-body">
                                         <h3 className="card-title">What You Got Left?</h3>
@@ -87,7 +87,7 @@ export function Portfolio() {
                             <Link className="link-underline link-underline-opacity-0" to="/tokenyo">
                                 <div className="card text-center h-100" style={{width:'100%'}}>
                                     <div>
-                                        <img src="/imgs/tokenyo-bug.png" className="card-img-top"/>
+                                        <img src="/imgs/tokenyo-bug.png" alt="tokenyo" className="card-img-top"/>
                                     </div>
                                     <div className="card-body">
                                         <h3 className="card-title">Tokenyo</h3>
