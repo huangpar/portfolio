@@ -35,7 +35,7 @@ export function Tokenyo() {
                                 <img src="/imgs/cart.png" alt="Tokenyo cart" className="score"/>
                             </div>
                         </div>
-                        <p>Tokenyo can be accessed here: <a href="https://tokenyo.com" target="_blank">http://tokenyo.com</a></p>
+                        <p>Tokenyo can be accessed here: <a href="https://tokenyo.com" target="_blank" rel="noreferrer">http://tokenyo.com</a></p>
                     </div>
                     <p></p>
                 </div>

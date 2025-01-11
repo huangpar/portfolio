@@ -9,7 +9,6 @@ import { Capstone } from "./capstone";
 import { Tokenyo } from "./tokenyo";
 import { Routes } from "react-router-dom";
 import { Route } from "react-router-dom";
-import { useState } from "react";
 
 function App() {
   return (
