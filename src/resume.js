@@ -22,14 +22,14 @@ export function Resume() {
                 </div>
             </header>
             <main>
-                <h1><strong>Resume</strong></h1>
+                <h1>Resume</h1>
                 <p className="skills">Organized, collaborative, and punctual problem solver skilled in R, SQL, NoSQL, Python, JavaScript, HTML, CSS, Office, 
                         Adobe Suite, Epic, Figma, Azure DevOps, GitHub, Tableau, Firebase, and Azure AI (Computer vision and nlp).</p>
                 <h2><strong>Work Experience</strong></h2>
                 <div className='container-fluid custom-container'>
                     <div className="row">
                         <div className='col-md-4'>
-                            <h3>Finance and Information Systems Associate</h3>
+                            <h4>Finance and Information Systems Associate</h4>
                         </div>
                         <div className='col col-md-8'>
                             <ul>
@@ -42,7 +42,7 @@ export function Resume() {
                     </div>
                     <div className='row'>
                         <div className='col-md-4'>
-                            <h3>Finance and Information Systems Intern</h3>
+                            <h4>Finance and Information Systems Intern</h4>
                         </div>
                         <div className='col col-md-8'>
                             <ul>
